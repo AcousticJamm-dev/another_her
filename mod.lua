@@ -32,6 +32,13 @@ function Mod:init()
     --Mod.mus3:setPitch(0.12)
     --Mod.mus3:setVolume(1)
     --Mod.mus3:play()
+	
+	Mod.stamina = {
+		max_stamina = 4,
+		value = 4,
+		burnout_mult = 0.7,
+		burnout = false
+	}
 end
 
 function Mod:postInit()
