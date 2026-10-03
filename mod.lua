@@ -1,7 +1,4 @@
 function Mod:init()
-    -- Bleh
-    love.window.setMode(960, 720)
-
     -- Generic Globals
     Mod.noiselv = 1
 
